@@ -7,6 +7,8 @@ import socket
 matplotlib.use('QtAgg')
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg
 from matplotlib.figure import Figure
+import matplotlib.style as mplstyle
+mplstyle.use('fast')
 import threading
 import queue
 
